@@ -13,7 +13,6 @@ const dbName = process.env.DB_NAME || "Userdata";
 
 const cloudUri=`mongodb+srv://${dbUsername}:${dbPassword}@${dbClustername}/${dbName}?retryWrites=true&w=majority`;
 
-
 const connectToDb = async() => {
     try {
         await mongoose.connect(cloudUri);

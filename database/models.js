@@ -16,6 +16,10 @@ const usersSchema=new mongoose.Schema({
         type: "string",
         required: true,
       },
+      imageUrl: {
+        type: "string",
+        required: true,
+      }
     //   imageUrl: {
     //     type: "string",
     //     required: true,
