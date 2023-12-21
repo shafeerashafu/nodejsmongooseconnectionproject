@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import  dotenv  from "dotenv";
 dotenv.config(); //It loads the varible from .env file into process.env
 
-console.log("env variables",process.env)
+// console.log("env variables",process.env)
 
 const dbUsername = process.env.DB_USERNAME || "";
 const dbPassword = process.env.DB_PASSWORD || "";
