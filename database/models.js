@@ -19,15 +19,11 @@ const usersSchema=new mongoose.Schema({
       imageUrl: {
         type: "string",
         required: true,
-      }
-    //   imageUrl: {
-    //     type: "string",
-    //     required: true,
-    //   },
-    //   password: {
-    //     type: "string",
-    //     required: true,
-    //   },
+      },
+      password: {
+        type: "string",
+        required: true,
+      },
     //   isAccountVerified: {
     //     type: "boolean",
     //     required: true,
